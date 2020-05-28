@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientProfile">
+
+    <Button
+        android:id="@+id/PMandalButton"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/PMandal"
+        android:background="@color/colorPrimary"
+        android:text="Edit"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:onClick="EditMandal"/>
+
+
+    <Button
+        android:id="@+id/PMandalButton2"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/PMandal"
+        android:background="@color/colorPrimary"
+        android:onClick="EditMandalOk"
+        android:text="Ok"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/PState"
+        android:layout_width="306dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="222dp"
+        android:textSize="18dp"
+        android:paddingTop="11dp"
+        android:textColor="@color/Black"
+        android:text="State" />
+
+
+    <Button
+        android:id="@+id/PStateButton"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/PState"
+        android:background="@color/colorPrimary"
+        android:text="Edit"
+        android:onClick="EditState"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/PStateButton2"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/PState"
+        android:background="@color/colorPrimary"
+        android:onClick="EditStateOk"
+        android:text="Ok"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/PMobile"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="75dp"
+        android:gravity="center"
+        android:text="Mobile No"
+        android:textColor="@color/Black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/PDistric"
+        android:layout_width="306dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/Black"
+        android:layout_marginTop="227dp"
+        android:textSize="18dp"
+        android:paddingTop="11dp"
+        android:text="District" />
+
+    <TextView
+        android:id="@+id/PEmail"
+        android:layout_width="306dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="147dp"
+        android:paddingTop="11dp"
+        android:text="Email"
+        android:textColor="@color/Black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/PMandal"
+        android:layout_width="306dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="163dp"
+        android:text="Mandal"
+        android:textColor="@color/Black"
+        android:paddingTop="11dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/PEmailButtion"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/PEmail"
+        android:background="@color/colorPrimary"
+        android:text="Edit"
+        android:onClick="EditEmail"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/PEmailButtion2"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/PEmail"
+        android:background="@color/colorPrimary"
+        android:onClick="EditEmailok"
+        android:text="ok"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/PVillageButton"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/PVillage"
+        android:background="@color/colorPrimary"
+        android:onClick="EditVillage"
+        android:text="Edit"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/PVillageButton2"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/PVillageButton"
+        android:background="@color/colorPrimary"
+        android:onClick="EditVillageok"
+        android:text="ok"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/PVillage"
+        android:layout_width="306dp"
+        android:layout_height="49dp"
+        android:textSize="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/Black"
+        android:layout_marginTop="101dp"
+        android:paddingTop="11dp"
+        android:text="Village" />
+
+    <Button
+        android:id="@+id/PDistricButton"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/PDistric"
+        android:background="@color/colorPrimary"
+        android:text="Edit"
+        android:onClick="EditDistrict"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/PDistricButton2"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/PDistric"
+        android:background="@color/colorPrimary"
+        android:onClick="EditDistrictOk"
+        android:text="ok"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/PNameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/White"
+        android:onClick="EditSave"
+        android:background="@color/colorPrimary"
+        android:shadowColor="@color/Red"
+        android:text="Save" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/ProfileImage"
+            android:layout_width="97dp"
+            android:layout_height="87dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/login_profile"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <TextView
+            android:id="@+id/PName"
+            android:layout_width="276dp"
+            android:layout_height="56dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="27dp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editvillage"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/PVillageButton"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editmandal"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/PMandalButton"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editdistrict"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/PDistric"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editstate"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/PState"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/PEmail"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+</RelativeLayout>

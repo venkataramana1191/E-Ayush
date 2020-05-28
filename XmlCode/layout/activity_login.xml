@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        app:srcCompat="@drawable/login_profile" />
+
+    <EditText
+        android:id="@+id/EdittextLoginMobileNo"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/ButtonLoginOtp"
+        style="@style/AppTheme.Button"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:onClick="ButtonLoginToApp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="116dp"
+        android:textColor="@color/Black"
+        android:onClick="ForgotPasword"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Password"
+        android:layout_below="@+id/Password"
+        android:textStyle="bold"
+        android:layout_marginTop="-114dp"
+        android:text="Forgot Password" />
+
+</RelativeLayout>

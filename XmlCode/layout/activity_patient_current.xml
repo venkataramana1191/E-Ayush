@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientCurrent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="1000dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="335dp"
+            android:layout_height="62dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="21dp"
+            android:background="@color/ButtonColor"
+            android:gravity="center"
+            android:text="Current Seesion"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/White"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Descriptiontitle"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/ButtonColor"
+            android:gravity="center"
+            android:text="Description"
+            android:textColor="@color/White"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/title"
+            android:layout_below="@+id/Descriptiontitle"
+            android:layout_marginLeft="19dp"
+            android:background="@color/current"
+            android:textSize="17dp"
+            android:text="Descriptuon of the  disease ex. tipod cancer..." />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/ButtonColor"
+            android:text="DoctorName"
+            android:textSize="20dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:id="@+id/DoctorName"
+            android:layout_marginLeft="19dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:background="@color/current"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Dr Rama krishna" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="9dp"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:background="@color/ButtonColor"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Hospital" />
+
+        <TextView
+            android:id="@+id/HospitalName"
+            android:layout_width="335dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="19dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@color/current"
+            android:textSize="25dp"
+            android:text="Apolla hospital Hyderabad" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:background="@color/ButtonColor"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="9dp"
+            android:text="Current Issue" />
+        <TextView
+            android:id="@+id/Issue"
+            android:layout_width="335dp"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:background="@color/current"
+            android:layout_marginLeft="19dp"
+            android:text="Cancer In Medium Stage" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:background="@color/ButtonColor"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="9dp"
+            android:text="Last Report" />
+        <TextView
+            android:id="@+id/LastReport"
+            android:layout_width="335dp"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:background="@color/current"
+            android:layout_marginLeft="19dp"
+            android:text="Jun 21 2018" />
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:background="@color/ButtonColor"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="9dp"
+            android:text="Must Report" />
+        <TextView
+            android:id="@+id/MustReport"
+            android:layout_width="335dp"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@color/current"
+            android:textSize="25dp"
+            android:layout_marginLeft="19dp"
+            android:text="July 28 2018" />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

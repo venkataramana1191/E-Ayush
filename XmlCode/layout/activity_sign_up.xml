@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/appbackground"
+    tools:context=".SignUpActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:paddingBottom="100dp">
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="Create Your Account"
+                android:textColor="@color/White"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Aadher_number"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:hint="AadherNumber"
+                android:inputType="number"
+                android:textColor="@color/Black" />
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:hint="Name As Per Aadher"
+                android:textColor="@color/Black"
+                 />
+
+            <EditText
+                android:id="@+id/MobileNo"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="3dp"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:textColor="@color/Black"
+                />
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/Black"
+                 />
+
+            <EditText
+                android:id="@+id/Village"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:hint="Village"
+                android:textColor="@color/Black"
+                />
+
+            <EditText
+                android:id="@+id/Mandal"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:hint="Mandal"
+                android:textColor="@color/Black"
+                 />
+
+            <EditText
+                android:id="@+id/District"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:hint="District"
+                android:textColor="@color/Black"
+                 />
+
+
+            <EditText
+                android:id="@+id/State"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:hint="State"
+                android:textColor="@color/Black"
+                 />
+
+            <EditText
+                android:id="@+id/Pincode"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:hint="Pincode"
+                android:inputType="number"
+                android:textColor="@color/Black" />
+
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/Black" />
+
+            <Button
+                android:id="@+id/button_Signup"
+                style="@style/AppTheme.Button"
+                android:layout_width="141dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="20dp"
+                android:onClick="CreateAcount"
+                android:text="SIGN UP"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

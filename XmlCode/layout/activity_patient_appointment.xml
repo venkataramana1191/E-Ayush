@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientAppointment">
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="307dp"
+        android:layout_height="51dp"
+        android:outlineSpotShadowColor="@color/Red"
+        android:layout_alignParentTop="true"
+        android:background="@color/Di"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <TimePicker
+        android:id="@+id/timepicker"
+        android:layout_width="303dp"
+        android:layout_height="345dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@color/tit"
+        android:numbersBackgroundColor="@color/White"
+        android:timePickerMode="clock">
+
+    </TimePicker>
+
+    <Button
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:background="@color/colorPrimary"
+        android:onClick="SetDate"
+        android:text="SetDate"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/AppointRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:onClick="RequestSend"
+        android:text="Request"
+        android:textColor="@color/White" />
+
+</RelativeLayout>

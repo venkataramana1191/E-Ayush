@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientChat">
+
+
+    <Spinner
+        android:id="@+id/lastdoctor"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:background="@color/date"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="337dp"
+        android:layout_height="380dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/lastdoctor"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Msg" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@+id/lastdoctor"
+        android:layout_alignTop="@+id/editText"
+        android:onClick="sending"
+        app:srcCompat="@drawable/ic_send_black_24dp" />
+
+
+</RelativeLayout>
